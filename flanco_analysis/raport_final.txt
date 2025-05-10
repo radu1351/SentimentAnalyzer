@@ -1,0 +1,93 @@
+=== RAPORT DE ANALIZĂ PENTRU REVIEW-URI FLANCO ===
+
+STATISTICI GENERALE
+-------------------
+Total produse analizate: 96
+Total review-uri analizate: 46
+
+DISTRIBUȚIA SENTIMENTULUI
+------------------------
+  Neutru: 32 review-uri (69.6%)
+  Pozitiv: 11 review-uri (23.9%)
+  Negativ: 3 review-uri (6.5%)
+
+Scorul mediu de sentiment: 0.128
+Rating-ul mediu: 4.29 din 5
+
+CARACTERISTICI MENȚIONATE
+-----------------------
+Top 10 caracteristici după numărul de mențiuni:
+  1. procesor - 14 mențiuni, sentiment pozitiv (0.27)
+  2. ecran - 12 mențiuni, sentiment pozitiv (0.39)
+  3. proces - 7 mențiuni, sentiment pozitiv (0.27)
+  4. bater - 6 mențiuni, sentiment pozitiv (0.14)
+  5. ram - 6 mențiuni, sentiment neutru (0.00)
+  6. ssd - 4 mențiuni, sentiment pozitiv (0.52)
+  7. portabil - 4 mențiuni, sentiment pozitiv (0.17)
+  8. display - 4 mențiuni, sentiment neutru (0.00)
+  9. stoc - 4 mențiuni, sentiment pozitiv (0.33)
+  10. camer - 4 mențiuni, sentiment negativ (-0.04)
+
+Top 5 caracteristici cu sentiment pozitiv:
+  1. ssd - 0.52, 4 mențiuni
+  2. stocare - 0.44, 3 mențiuni
+  3. ecran - 0.39, 12 mențiuni
+  4. stoc - 0.33, 4 mențiuni
+  5. procesor - 0.27, 14 mențiuni
+
+Top 5 caracteristici cu sentiment negativ:
+  1. camer - -0.04, 4 mențiuni
+  2. display - 0.00, 4 mențiuni
+  3. ram - 0.00, 6 mențiuni
+  4. baterie - 0.11, 3 mențiuni
+  5. bater - 0.14, 6 mențiuni
+
+ANALIZA PE PRODUSE
+------------------
+Top 5 produse după numărul de review-uri:
+  1. Telefon Mobil Apple iPhone 15 Pro Max 5G, 256GB, Black Titanium - 8 review-uri
+  2. Telefon mobil Motorola Edge 50 Fusion 5G, 256GB, 8GB RAM, Dual SIM, Forest Blue - 6 review-uri
+  3. Laptop Asus ExpertBook B3 B3604CMA-Q90347, 16", WUXGA, Intel Core Ultra 5 125H, 16GB DDR5, 512GB SSD, Intel Graphics, No OS, Star Black - 4 review-uri
+  4. Laptop ASUS Zenbook 16 OLED UM5606WA-RJ256X, AMD Ryzen AI 9 HX 370, 16" 3K Touch, 32GB, SSD 2TB, AMD Radeon 690M Graphics, Windows 11 Pro, Scandinavian White - 3 review-uri
+  5. Telefon mobil Motorola Moto g54 5G, 8GB RAM, 256GB, Midnight Blue - 3 review-uri
+
+Top 5 produse cu cel mai pozitiv sentiment (minim 3 review-uri):
+  1. Laptop ASUS Zenbook 16 OLED UM5606WA-RJ256X, AMD Ryzen AI 9 HX 370, 16" 3K Touch, 32GB, SSD 2TB, AMD Radeon 690M Graphics, Windows 11 Pro, Scandinavian White - scor sentiment: 0.28, 3.0 review-uri
+  2. Laptop Asus ExpertBook B3 B3604CMA-Q90347, 16", WUXGA, Intel Core Ultra 5 125H, 16GB DDR5, 512GB SSD, Intel Graphics, No OS, Star Black - scor sentiment: 0.26, 4.0 review-uri
+  3. Laptop Asus TUF Gaming A15 (2023) FA507NV-LP019, 15.6", Full HD, AMD Ryzen 7 7735HS, 8GB RAM, 512GB SSD, nVidia GeForce RTX 4060, No OS, Gri - scor sentiment: 0.17, 3.0 review-uri
+  4. Telefon Mobil Apple iPhone 15 Pro Max 5G, 256GB, Black Titanium - scor sentiment: 0.06, 8.0 review-uri
+  5. Telefon mobil Motorola Edge 50 Fusion 5G, 256GB, 8GB RAM, Dual SIM, Forest Blue - scor sentiment: 0.04, 6.0 review-uri
+
+Top 5 produse cu cel mai negativ sentiment (minim 3 review-uri):
+  1. Telefon mobil Motorola Moto g54 5G, 8GB RAM, 256GB, Midnight Blue - scor sentiment: 0.03, 3.0 review-uri
+  2. Telefon mobil Motorola Edge 50 Fusion 5G, 256GB, 8GB RAM, Dual SIM, Forest Blue - scor sentiment: 0.04, 6.0 review-uri
+  3. Telefon Mobil Apple iPhone 15 Pro Max 5G, 256GB, Black Titanium - scor sentiment: 0.06, 8.0 review-uri
+  4. Laptop Asus TUF Gaming A15 (2023) FA507NV-LP019, 15.6", Full HD, AMD Ryzen 7 7735HS, 8GB RAM, 512GB SSD, nVidia GeForce RTX 4060, No OS, Gri - scor sentiment: 0.17, 3.0 review-uri
+  5. Laptop Asus ExpertBook B3 B3604CMA-Q90347, 16", WUXGA, Intel Core Ultra 5 125H, 16GB DDR5, 512GB SSD, Intel Graphics, No OS, Star Black - scor sentiment: 0.26, 4.0 review-uri
+
+TOPICURI IDENTIFICATE ÎN REVIEW-URI
+-------------------------------
+Consultați fișierul 'topics.txt' pentru detalii despre topicurile identificate.
+
+CLUSTERE IDENTIFICATE
+---------------------
+Consultați fișierul 'clusters.txt' pentru detalii despre clusterele identificate.
+
+CLASIFICAREA SENTIMENTULUI
+-------------------------
+Consultați fișierul 'classification_report.txt' pentru detalii despre performanța clasificatorului.
+
+FIȘIERE GENERATE
+---------------
+  - sentiment_distribution.png
+  - positive_wordcloud.png
+  - negative_wordcloud.png
+  - rating_vs_sentiment.png
+  - feature_sentiment.png
+  - feature_mentions.png
+  - topic_distribution.png
+  - cluster_sentiment.png
+  - confusion_matrix.png
+  - topics.txt
+  - clusters.txt
+  - classification_report.txt
