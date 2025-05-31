@@ -8,12 +8,11 @@ from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from tqdm import tqdm
-
 
 class FlancoReviewExtractor:
     def __init__(self):
@@ -26,34 +25,28 @@ class FlancoReviewExtractor:
         self.all_products = []
 
         options = webdriver.ChromeOptions()
-        options.add_argument('headless')
+        options.add_argument('--headless')
         options.add_argument('--disable-gpu')
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
+        options.add_argument('--window-size=1920,1080')
 
         try:
             self.driver = webdriver.Chrome(options=options)
-            self.driver.maximize_window()
         except Exception as e:
-            print(f"Eroare la inițializarea browser-ului: {str(e)}")
-            print("Asigură-te că ai instalat Chrome și ChromeDriver!")
+            print(f"Eroare la initializarea browser-ului: {str(e)}")
+            print("Asigura-te ca ai instalat Chrome si ChromeDriver!")
             exit(1)
 
     def accept_cookies(self):
         try:
-            WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "#cc-wrapper"))
+            cookie_button = WebDriverWait(self.driver, 5).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "#cc-wrapper .x-agree"))
             )
-
-            cookie_button = self.driver.find_element(By.CSS_SELECTOR,
-                                                     "#cc-wrapper > div > div.inner > div > div.buttons > a.x-agree.flc-button.yellow")
             self.driver.execute_script("arguments[0].click();", cookie_button)
             time.sleep(1)
-
             return True
-        except TimeoutException:
-            return False
-        except Exception:
+        except (TimeoutException, NoSuchElementException):
             return False
 
     def get_product_urls(self, category_url, max_pages=2):
@@ -72,19 +65,21 @@ class FlancoReviewExtractor:
                 for product in products:
                     product_link = product.select_one('.product-item-link')
                     if product_link and product_link.has_attr('href'):
-                        product_urls.append(product_link['href'])
+                        product_url = product_link['href']
+                        if not product_url.startswith('http'):
+                            product_url = self.base_url + product_url
+
+                        product_urls.append(product_url)
 
                         product_name = product_link.get_text(strip=True) if product_link else "Nedisponibil"
-
                         price_elem = product.select_one('.price-final_price .price')
                         price = price_elem.get_text(strip=True) if price_elem else "Nedisponibil"
-
                         review_count_elem = product.select_one('.reviews-actions .action')
                         review_count = review_count_elem.get_text(strip=True).split()[0] if review_count_elem else "0"
 
                         self.all_products.append({
                             'name': product_name,
-                            'url': product_link['href'],
+                            'url': product_url,
                             'price': price,
                             'review_count': review_count
                         })
@@ -102,166 +97,95 @@ class FlancoReviewExtractor:
             self.driver.get(product_url)
 
             WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, '.product-info-main'))
+                EC.presence_of_element_located((By.CSS_SELECTOR, '.product-info-main, .page-title'))
             )
 
             self.accept_cookies()
 
-            product_name_elem = self.driver.find_element(By.CSS_SELECTOR, '.page-title span')
-            product_name = product_name_elem.text if product_name_elem else "Nedisponibil"
+            product_name = "Nedisponibil"
+            try:
+                product_name_elem = self.driver.find_element(By.CSS_SELECTOR, '.page-title span')
+                product_name = product_name_elem.text.strip()
+            except NoSuchElementException:
+                try:
+                    product_name_elem = self.driver.find_element(By.CSS_SELECTOR, 'h1')
+                    product_name = product_name_elem.text.strip()
+                except NoSuchElementException:
+                    pass
 
             try:
-                rating_element = WebDriverWait(self.driver, 5).until(
+                rating_element = WebDriverWait(self.driver, 10).until(
                     EC.element_to_be_clickable((By.CSS_SELECTOR, '.rating'))
                 )
 
+                self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", rating_element)
+                time.sleep(1)
+
                 self.driver.execute_script("arguments[0].click();", rating_element)
+                time.sleep(3)
 
-                time.sleep(2)
+            except TimeoutException:
+                return []
 
+            try:
+                WebDriverWait(self.driver, 10).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, '.review-item'))
+                )
+            except TimeoutException:
+                return []
+
+            review_items = self.driver.find_elements(By.CSS_SELECTOR, '.review-item')
+
+            for i, review in enumerate(review_items):
                 try:
-                    WebDriverWait(self.driver, 5).until(
-                        EC.presence_of_element_located(
-                            (By.CSS_SELECTOR, '.review-items, .review-list, .review-container'))
-                    )
-                except TimeoutException:
-                    pass
-
-                review_items = []
-
-                review_selectors = [
-                    '.review-item',
-                    '.review-items .item',
-                    '.frating-comment',
-                    '.review-piece',
-                    '.review'
-                ]
-
-                for selector in review_selectors:
-                    review_items = self.driver.find_elements(By.CSS_SELECTOR, selector)
-                    if review_items:
-                        break
-
-                if not review_items:
-                    self.driver.save_screenshot('debug_page.png')
-                    with open('debug_page.html', 'w', encoding='utf-8') as f:
-                        f.write(self.driver.page_source)
-                    return []
-
-                for review in review_items:
+                    author = "Anonim"
                     try:
-                        author = "Anonim"
-                        author_selectors = [
-                            '.review-content__name',
-                            '.review-details-value[itemprop="author"]',
-                            '.review-nickname',
-                            '.review-author',
-                            '.frating-comminfo-name'
-                        ]
+                        author_elem = review.find_element(By.CSS_SELECTOR, '.review-content__name')
+                        author = author_elem.text.strip()
+                    except NoSuchElementException:
+                        pass
 
-                        for selector in author_selectors:
-                            try:
-                                author_elem = review.find_element(By.CSS_SELECTOR, selector)
-                                author = author_elem.text
-                                break
-                            except:
-                                continue
+                    review_date = "Nedisponibil"
+                    try:
+                        date_elem = review.find_element(By.CSS_SELECTOR, '.review-date')
+                        review_date = date_elem.text.strip()
+                    except NoSuchElementException:
+                        pass
 
-                        review_date = "Nedisponibil"
-                        date_selectors = [
-                            '.review-date time',
-                            'time[itemprop="datePublished"]',
-                            '.review-date',
-                            '.review-details-value[itemprop="datePublished"]'
-                        ]
+                    rating = "0"
+                    try:
+                        rating_elem = review.find_element(By.CSS_SELECTOR, '.rating-result > span > span')
+                        rating_text = rating_elem.text.strip()
+                        digits = re.findall(r'\d+', rating_text)
+                        if digits:
+                            rating = digits[0]
+                    except NoSuchElementException:
+                        pass
 
-                        for selector in date_selectors:
-                            try:
-                                date_elem = review.find_element(By.CSS_SELECTOR, selector)
-                                try:
-                                    review_date = date_elem.get_attribute('datetime')
-                                except:
-                                    review_date = date_elem.text
-                                break
-                            except:
-                                continue
-
-                        # FIX pentru rating - Folosim selectorul exact pentru rating
-                        rating = "0"
+                    text = ""
+                    try:
+                        text_elem = review.find_element(By.CSS_SELECTOR, '.review-item > div > p')
+                        text = text_elem.text.strip()
+                    except NoSuchElementException:
                         try:
-                            # Selectorul exact pentru rating: .rating-result > span > span
-                            rating_elem = review.find_element(By.CSS_SELECTOR, '.rating-result > span > span')
-                            if rating_elem:
-                                rating = rating_elem.text
-                                # În caz că rating-ul este în format text sau are alte caractere
-                                if rating:
-                                    # Extrage doar cifrele din rating (pentru cazul când vine ca "5 stele" sau similar)
-                                    digits = re.findall(r'\d+', rating)
-                                    if digits:
-                                        rating = digits[0]  # Folosim prima cifră găsită
-                        except:
-                            # Încercăm alte metode de backup pentru a extrage rating-ul
-                            try:
-                                # Verificăm atributul content pentru meta itemprop="ratingValue"
-                                rating_meta = review.find_element(By.CSS_SELECTOR, 'meta[itemprop="ratingValue"]')
-                                if rating_meta:
-                                    rating = rating_meta.get_attribute('content')
-                            except:
-                                try:
-                                    # Încercăm să extragem din stilul width al elementului span pentru rating
-                                    rating_span = review.find_element(By.CSS_SELECTOR, '.rating-result > span')
-                                    if rating_span:
-                                        style = rating_span.get_attribute('style')
-                                        if style and 'width:' in style:
-                                            match = re.search(r'width:\s*(\d+)%', style)
-                                            if match:
-                                                width_percent = int(match.group(1))
-                                                # Convertim procentul în stele (100% = 5 stele)
-                                                rating = str(round(width_percent / 20))
-                                except:
-                                    # Ultima încercare - verificăm span-ul fără selectorul exact
-                                    try:
-                                        spans = review.find_elements(By.CSS_SELECTOR, '.rating-result span')
-                                        for span in spans:
-                                            text = span.text
-                                            if text and text.strip():
-                                                # Verificăm dacă avem un număr în text
-                                                digits = re.findall(r'\d+', text)
-                                                if digits:
-                                                    rating = digits[0]
-                                                    break
-                                    except:
-                                        pass
-
-                        text = ""
-                        text_selectors = [
-                            '.review-content p',
-                            '.review-text',
-                            'p[itemprop="reviewBody"]',
-                            '.review-content',
-                            '.frating-comm-description'
-                        ]
-
-                        for selector in text_selectors:
-                            try:
-                                text_elem = review.find_element(By.CSS_SELECTOR, selector)
-                                text = text_elem.text
-                                break
-                            except:
-                                continue
-
-                        title = ""
-                        try:
-                            title_elem = review.find_element(By.CSS_SELECTOR, '.review-title')
-                            title = title_elem.text
-                        except:
+                            text_elem = review.find_element(By.CSS_SELECTOR, 'p')
+                            text = text_elem.text.strip()
+                        except NoSuchElementException:
                             pass
 
-                        if title and text:
-                            full_text = f"{title}\n{text}"
-                        else:
-                            full_text = text or title
+                    title = ""
+                    try:
+                        title_elem = review.find_element(By.CSS_SELECTOR, '.review-title')
+                        title = title_elem.text.strip()
+                    except NoSuchElementException:
+                        pass
 
+                    if title and text:
+                        full_text = f"{title}\n{text}"
+                    else:
+                        full_text = text or title
+
+                    if full_text:
                         review_data = {
                             'product_name': product_name,
                             'product_url': product_url,
@@ -274,25 +198,13 @@ class FlancoReviewExtractor:
                         product_reviews.append(review_data)
                         self.all_reviews.append(review_data)
 
-                    except Exception as e:
-                        print(f"Eroare la extragerea review-ului: {str(e)}")
+                except Exception:
+                    continue
 
-            except Exception as e:
-                print(f"Eroare la accesarea sau procesarea paginii: {str(e)}")
-                try:
-                    review_link = WebDriverWait(self.driver, 3).until(
-                        EC.element_to_be_clickable((By.CSS_SELECTOR, '.reviews-actions a'))
-                    )
-                    self.driver.execute_script("arguments[0].click();", review_link)
-                    time.sleep(2)
-                except:
-                    pass
+        except Exception:
+            pass
 
-            return product_reviews
-
-        except Exception as e:
-            print(f"Eroare generală la procesarea URL-ului {product_url}: {str(e)}")
-            return []
+        return product_reviews
 
     def save_reviews_to_txt(self, filename="flanco_reviews.txt"):
         with open(filename, 'w', encoding='utf-8') as f:
@@ -311,7 +223,7 @@ class FlancoReviewExtractor:
                     f.write(f"Like-uri: {review['likes']}\n")
                 f.write(f"Text: {review['text']}\n\n")
 
-        print(f"Review-urile au fost salvate în {filename}")
+        print(f"Review-urile au fost salvate in {filename}")
 
     def save_reviews_to_csv(self, filename="flanco_reviews.csv"):
         with open(filename, 'w', encoding='utf-8', newline='') as f:
@@ -320,30 +232,30 @@ class FlancoReviewExtractor:
                 fieldnames.append('likes')
 
             writer = csv.DictWriter(f, fieldnames=fieldnames)
-
             writer.writeheader()
             for review in self.all_reviews:
                 writer.writerow(review)
 
-        print(f"Review-urile au fost salvate în {filename}")
+        print(f"Review-urile au fost salvate in {filename}")
 
     def save_products_to_csv(self, filename="flanco_products.csv"):
         with open(filename, 'w', encoding='utf-8', newline='') as f:
             fieldnames = ['name', 'url', 'price', 'review_count']
             writer = csv.DictWriter(f, fieldnames=fieldnames)
-
             writer.writeheader()
             for product in self.all_products:
                 writer.writerow(product)
 
-        print(f"Informațiile despre produse au fost salvate în {filename}")
+        print(f"Informatiile despre produse au fost salvate in {filename}")
 
     def run_extraction(self, laptop_pages=2, phone_pages=2, max_products=None):
+        print("Colectez laptopuri...")
         laptop_urls = self.get_product_urls(
             'https://www.flanco.ro/laptop-it-tablete/laptop/dir/desc/order/reviews_count.html',
             max_pages=laptop_pages
         )
 
+        print("Colectez telefoane...")
         phone_urls = self.get_product_urls(
             'https://www.flanco.ro/telefoane-tablete/smartphone/dir/desc/order/reviews_count.html',
             max_pages=phone_pages
@@ -354,16 +266,17 @@ class FlancoReviewExtractor:
         if max_products and max_products < len(all_urls):
             all_urls = all_urls[:max_products]
 
-        print(f"Începem extragerea review-urilor pentru {len(all_urls)} produse...")
+        print(f"Incep extragerea review-urilor pentru {len(all_urls)} produse...")
 
         for url in tqdm(all_urls, desc="Procesare produse"):
+            print(f"URL: {url}")
             reviews = self.extract_reviews_with_selenium(url)
-            print(f"S-au extras {len(reviews)} review-uri pentru {url}")
-            time.sleep(1)
+            time.sleep(2)
 
-        print(f"Extragere completă! S-au colectat {len(self.all_reviews)} review-uri în total.")
+        print(f"Extragere completa! S-au colectat {len(self.all_reviews)} review-uri in total.")
 
-        self.driver.quit()
+        if hasattr(self, 'driver') and self.driver:
+            self.driver.quit()
 
         return self.all_reviews, self.all_products
 
@@ -372,13 +285,13 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description='Extrage review-uri de pe Flanco.ro')
 
     parser.add_argument('--laptop-pages', type=int, default=2,
-                        help='Numărul de pagini de laptopuri de analizat (default: 2)')
+                        help='Numarul de pagini de laptopuri de analizat (default: 2)')
 
     parser.add_argument('--phone-pages', type=int, default=2,
-                        help='Numărul de pagini de telefoane de analizat (default: 2)')
+                        help='Numarul de pagini de telefoane de analizat (default: 2)')
 
     parser.add_argument('--max-products', type=int, default=20,
-                        help='Numărul maxim de produse de analizat (default: 20)')
+                        help='Numarul maxim de produse de analizat (default: 20)')
 
     parser.add_argument('--output-dir', type=str, default='.',
                         help='Directorul unde se vor salva rezultatele (default: directorul curent)')
@@ -404,12 +317,12 @@ def main():
         extractor.save_reviews_to_csv(os.path.join(args.output_dir, 'flanco_reviews.csv'))
         extractor.save_products_to_csv(os.path.join(args.output_dir, 'flanco_products.csv'))
 
-        print("\nStatistici extracție:")
+        print("\nStatistici extractie:")
         print(f"Total produse: {len(products)}")
         print(f"Total review-uri: {len(reviews)}")
 
     except Exception as e:
-        print(f"Eroare în timpul extracției: {str(e)}")
+        print(f"Eroare in timpul extractiei: {str(e)}")
     finally:
         if hasattr(extractor, 'driver') and extractor.driver:
             extractor.driver.quit()

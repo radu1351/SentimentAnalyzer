@@ -1,17 +1,17 @@
 Clustere identificate în review-uri:
 
 Cluster #1:
-  Număr de review-uri: 1
-  Sentiment mediu: neutru (0.00)
-  Cuvinte cheie: bun, folos, facult, proiect, 3d, autocad
+  Număr de review-uri: 23
+  Sentiment mediu: pozitiv (0.17)
+  Cuvinte cheie: telefon, incarc, ecran, bun, bater, camer, mar, l, part, laptop
 
 Cluster #2:
-  Număr de review-uri: 44
-  Sentiment mediu: pozitiv (0.13)
-  Cuvinte cheie: telefon, bun, laptop, l, recomand, rapid, mar, bater, clar, bin
+  Număr de review-uri: 12
+  Sentiment mediu: pozitiv (0.09)
+  Cuvinte cheie: telefon, bun, bin, merg, fps, pret, laptop, calitat, multum, joc
 
 Cluster #3:
-  Număr de review-uri: 1
-  Sentiment mediu: neutru (0.00)
-  Cuvinte cheie: genial, misc, bin, bun, decat, astept
+  Număr de review-uri: 4
+  Sentiment mediu: pozitiv (0.25)
+  Cuvinte cheie: ok, telefon, bater, singur, minus, lei, 2, zil, misc, bin
 

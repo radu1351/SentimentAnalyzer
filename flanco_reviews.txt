@@ -1,56 +1,90 @@
 === REVIEW-URI PRODUSE FLANCO ===
-Data extragerii: 10-05-2025 15:12:40
-Total review-uri: 46
+Data extragerii: 31-05-2025 20:14:03
+Total review-uri: 31
 
 --- REVIEW #1 ---
-Produs: Telefon mobil Xiaomi Mix Flip, 512 GB, 12 GB RAM, Dual SIM, Black
-URL: https://www.flanco.ro/telefon-mobil-xiaomi-mix-flip-512-gb-12-gb-ram-dual-sim-black.html
-Autor: Ionut Neculai
-Data: 19.11.2024
+Produs: Laptop Business ASUS ExpertBook B3, B3402FVA-EC0800X , 14.0-inch, FHD (1920 x 1080) 16:9, Intel® Core™ i5-1335U (pana la 4.6GHz), Intel Iris Xᵉ Graphics, 1x M.2 2280 PCIe 4.0x4, DDR4 16GB, 256GB M.2
+URL: https://www.flanco.ro/laptop-business-asus-expertbook-b3-b3402fva-ec0800x-14-0-inch-fhd-1920-x-1080-16-9-intelr-coretm-i5-1335u-pana-la-4-6ghz-intel-iris-x-graphics-1x-m-2-2280-pcie-4-0x4-ddr4-16gb-256gb-m-2.html
+Autor: Popa Victor
+Data: 09.04.2025
 Rating: 5
-Text: L-am ,,vanat inca de la lansare si l-am achizitionat in oferta de Black Friday. Camere decente pentru un flip, balama foarte ferma in comparatie cu ce oferta competitia iar posibilitatea de a vorbi cu el pliat si fara sa fie pe difuzor a fost cireasa de pe tort. Recomand cu incredere, e cu mult peste alte pliabile.
+Text: Laptopul ASUS ExpertBook B3 este rapid, usor de utilizat si perfect pentru un mediu de business. Se descurca excelent la multitasking si sarcini mai complexe. Ecranul este vibrant, iar designul este compact si elegant. Bateria are o autonomie buna, iar sistemul de operare este fluid. Recomand cu incredere acest laptop
 
 --- REVIEW #2 ---
-Produs: Telefon mobil Xiaomi Mix Flip, 512 GB, 12 GB RAM, Dual SIM, Black
-URL: https://www.flanco.ro/telefon-mobil-xiaomi-mix-flip-512-gb-12-gb-ram-dual-sim-black.html
-Autor: Silviu L.
-Data: 18.11.2024
+Produs: Telefon mobil Apple iPhone 14 5G, 128GB, Midnight
+URL: https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-128gb-midnight.html
+Autor: Annamaria Fodor
+Data: 11.06.2023
 Rating: 5
-Text: L am cumparat sotiei de black Friday ,arata premium ,leica nu dezamageste la varianta flip.
+Text: Un telefon foarte bun, sunt multumita din toate toate punctele de vedere. Chiar daca este aprope identic cu modelul de anul trecut, eu am trecut de la un IPhone 7plus asa ca pentru mine a meritat achizitia. Este foarte performant, camera extrem de buna si poze foarte calitativa. Bateria tine destul de mult iar sunetul este incredibil. In total sunt foarte multumita
 
 --- REVIEW #3 ---
-Produs: Telefon mobil Samsung Galaxy A55 5G, 128GB, 8GB, Dual SIM, Awesome Navy
-URL: https://www.flanco.ro/telefon-mobil-samsung-galaxy-a55-5g-128gb-8gb-dual-sim-awesome-navy.html
-Autor: csyt
-Data: 25.02.2025
-Rating: 2
-Text: foarte bun
+Produs: Laptop Gaming ASUS TUF F16 FX607JV, Intel Core i7-13650HX, 16", Full HD+, 16GB, 1TB SSD, NVIDIA GeForce RTX 4060, No OS, Mecha Gray
+URL: https://www.flanco.ro/laptop-gaming-asus-tuf-f16-fx607jv-intel-core-i7-13650hx-16-full-hd-16gb-1tb-ssd-nvidia-geforce-rtx-4060-no-os-mecha-gray.html
+Autor: Cristi POPA
+Data: 04.03.2025
+Rating: 5
+Text: Pot sa spun ca e tot ce aveam nevoie si mai mult, am testat numeroase jocuri complexe, le duce pe setari high si mai ramane si o marja de eroare, ecranul super mare de 165hz are niste culori vivide, trebuie sa spun ca ventilatoarele isi fac treaba cu brio, temperaturile nu cresc momentan peste 800C, bineinteles cu asta vine clasica poluare fonica, zici ca e avion cand incepe sa se raceasca si ajung pana la 6000rpm, dar cu niste casti bune se poate ignora sunetul, sincer mai bine sa fie avion decat sa se supraincalzeasca. Un lucru ce m-a mirat, e foarte usor ca si greutate pentru ce specificatii are. 100 recomand
 
 --- REVIEW #4 ---
-Produs: Telefon mobil Samsung Galaxy A55 5G, 128GB, 8GB, Dual SIM, Awesome Navy
-URL: https://www.flanco.ro/telefon-mobil-samsung-galaxy-a55-5g-128gb-8gb-dual-sim-awesome-navy.html
-Autor: Olivian Nistor
-Data: 27.08.2024
+Produs: Telefon mobil Apple iPhone 14 5G, 128GB, Starlight
+URL: https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-128gb-starlight.html
+Autor: Adrian Encica
+Data: 25.11.2023
 Rating: 5
-Text: A sosit foarte repede, telefonul este foarte elegant, rapid, pozele sunt foarte bune.
+Text: Un telefon de calitate
 
 --- REVIEW #5 ---
-Produs: Telefon mobil Allview V10 Viper, 64GB, 4GB RAM, Dual SIM, Blue Mirror
-URL: https://www.flanco.ro/telefon-mobil-allview-v10-viper-64gb-4gb-ram-dual-sim-blue-mirror.html
-Autor: Asa si asa
-Data: 19.12.2023
-Rating: 2
-Text: Putin cam slabut, mult lag , iasa din aplicatii , camere slabe , bun pentru cateva aplicatii de socializare si convorbiri.
+Produs: Telefon mobil Apple iPhone 14 5G, 128GB, Starlight
+URL: https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-128gb-starlight.html
+Autor: Simina
+Data: 09.06.2023
+Rating: 1
+Text: Un telefon foarte slab, bateria scade cu cate 1 procent la fiecare 3-5 min, camera slab calitativa, se misca greu, intra greu in aplicatii, se incalzeste repede ( nefolosit pt rularea unui film sau joc, doar utilizare normala) am un iphone 11 de 3 ani si este cu mult peste acest 14. Nu recomand sub nicio forma
 
 --- REVIEW #6 ---
-Produs: Laptop HP 15s-eq3018nq, 15.6", Full HD, AMD Ryzen 5 5625U, 8GB RAM, 512GB SSD, AMD Radeon Graphics, No OS, Natural Silver
-URL: https://www.flanco.ro/laptop-hp-15s-eq3018nq-15-6-full-hd-amd-ryzen-5-5625u-8gb-ram-512gb-ssd-amd-radeon-graphics-no-os-natural-silver.html
-Autor: Csongor
+Produs: Telefon mobil Apple iPhone 14 5G, 128GB, Starlight
+URL: https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-128gb-starlight.html
+Autor: Costinel
 Data: 28.12.2022
-Rating: 5
-Text: Raportul pretcalitate este perfect
+Rating: 4
+Text: Cred ca este alegerea perfecta din gama iPhone 2022. Performanta deosebita
 
 --- REVIEW #7 ---
+Produs: Telefon mobil Apple iPhone 14 5G, 128GB, Starlight
+URL: https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-128gb-starlight.html
+Autor: Claudiu
+Data: 27.09.2022
+Rating: 5
+Text: Este un telefon performant
+
+--- REVIEW #8 ---
+Produs: Laptop Asus Vivobook 15 X1502VA 15.6", Procesor Intel Core i7-13620H, 16GB DDR4, 1TB SSD, Intel UHD, No OS, Quiet Blue
+URL: https://www.flanco.ro/laptop-asus-vivobook-15-x1502va-15-6-procesor-intel-core-i7-13620h-16gb-ddr4-1tb-ssd-intel-uhd-no-os-quiet-blue.html
+Autor: Dorina Alexei
+Data: 16.05.2025
+Rating: 5
+Text: Pretul este unul foarte bun si laptopul este de calitate cu o configuratie foarte, foarte buna Recomand
+
+--- REVIEW #9 ---
+Produs: Laptop gaming Lenovo IdeaPad 3 15ACH6, 15.6", Full HD, AMD Ryzen 5 5500H, 8GB RAM, GeForce RTX 2050, 512GB SSD, No OS, Shadow Black
+URL: https://www.flanco.ro/laptop-gaming-lenovo-ideapad-3-15ach6-15-6-full-hd-amd-ryzen-5-5500h-8gb-ram-geforce-rtx-2050-512gb-ssd-no-os-shadow-black.html
+Autor: Renata Ioana
+Data: 06.11.2024
+Rating: 4
+Text: Singurul minus este modul in care a ajuns...
+Plin de praf, cateva zgarieturi
+In rest e ok
+
+--- REVIEW #10 ---
+Produs: Laptop gaming Lenovo IdeaPad 3 15ACH6, 15.6", Full HD, AMD Ryzen 5 5500H, 8GB RAM, GeForce RTX 2050, 512GB SSD, No OS, Shadow Black
+URL: https://www.flanco.ro/laptop-gaming-lenovo-ideapad-3-15ach6-15-6-full-hd-amd-ryzen-5-5500h-8gb-ram-geforce-rtx-2050-512gb-ssd-no-os-shadow-black.html
+Autor: Ene ianis
+Data: 11.01.2024
+Rating: 5
+Text: Este foarte bun eu vi-l recomand deoarece se misca foarte bine in jocuri de exemplu fortnite,cs2,roblox,gta5. Se merita sa dati banii pe acest laptop.
+
+--- REVIEW #11 ---
 Produs: Laptop gaming Asus TUF F15 FX507VU, 15.6", Full HD, Intel Core i7-13620H, 16GB DDR5, 512GB SSD, GeForce RTX 4050, No OS, Gri
 URL: https://www.flanco.ro/laptop-gaming-asus-tuf-f15-fx507vu-15-6-full-hd-intel-core-i7-13620h-16gb-ddr5-512gb-ssd-geforce-rtx-4050-no-os-gri.html
 Autor: Eva Rares
@@ -58,138 +92,50 @@ Data: 14.05.2024
 Rating: 5
 Text: Genial, se misca foarte bine. Mult mai bun decat ma asteptam
 
---- REVIEW #8 ---
-Produs: Laptop Asus Vivobook 15 X1504ZA, 15.6", Full HD, Intel Core i3-1215U, 8GB RAM, 512GB SSD, Intel UHD Graphics, No OS, Cool Silver
-URL: https://www.flanco.ro/laptop-asus-vivobook-15-x1504za-15-6-full-hd-intel-core-i3-1215u-8gb-ram-512gb-ssd-intel-uhd-graphics-no-os-cool-silver.html
-Autor: Catalin Pricope
-Data: 04.09.2024
-Rating: 5
-Text: Are un pret excelent si este un laptop foarte bun
-
---- REVIEW #9 ---
-Produs: Laptop Asus Vivobook 15 X1504ZA, 15.6", Full HD, Intel Core i3-1215U, 8GB RAM, 512GB SSD, Intel UHD Graphics, No OS, Cool Silver
-URL: https://www.flanco.ro/laptop-asus-vivobook-15-x1504za-15-6-full-hd-intel-core-i3-1215u-8gb-ram-512gb-ssd-intel-uhd-graphics-no-os-cool-silver.html
-Autor: Filip Adrian
-Data: 09.07.2024
-Rating: 5
-Text: Laptop de nota 10 .. accesibil, usor, cu autonomie mare a bateriei si performant. Recomand cu incredere
-
---- REVIEW #10 ---
-Produs: Telefon mobil Redmi Note 13 Pro, 256GB, 8GB RAM, Dual SIM, Lavender Purple
-URL: https://www.flanco.ro/telefon-mobil-redmi-note-13-pro-256gb-8gb-ram-dual-sim-lavender-purple.html
-Autor: Beniamin Vale
-Data: 02.12.2024
-Rating: 5
-Text: Foarte bun si ca pret si telefonul,sunt multumit de el.
-
---- REVIEW #11 ---
-Produs: Laptop Asus ExpertBook B3 B3604CMA-Q90347, 16", WUXGA, Intel Core Ultra 5 125H, 16GB DDR5, 512GB SSD, Intel Graphics, No OS, Star Black
-URL: https://www.flanco.ro/laptop-asus-expertbook-b3-b3604cma-q90347-16-wuxga-intel-core-ultra-5-125h-16gb-ddr5-512gb-ssd-intel-graphics-no-os-star-black.html
-Autor: Gabriel Tudor
-Data: 22.01.2025
-Rating: 5
-Text: ASUS ExpertBook B3 este un laptop puternic si versatil, ideal pentru profesionisti. Echipat cu procesor Intel Core Ultra 5 125H, 16 GB DDR5 si 512 GB SSD, ofera performanta rapida si multitasking fara intreruperi. Ecranul 16 WUXGA ofera imagini clare si detaliate, perfect pentru munca intensiva.
-Designul elegant, in nuanta Star Black, si specificatiile de top il fac o alegere excelenta pentru utilizatorii care au nevoie de un dispozitiv fiabil si puternic.
-
 --- REVIEW #12 ---
-Produs: Laptop Asus ExpertBook B3 B3604CMA-Q90347, 16", WUXGA, Intel Core Ultra 5 125H, 16GB DDR5, 512GB SSD, Intel Graphics, No OS, Star Black
-URL: https://www.flanco.ro/laptop-asus-expertbook-b3-b3604cma-q90347-16-wuxga-intel-core-ultra-5-125h-16gb-ddr5-512gb-ssd-intel-graphics-no-os-star-black.html
-Autor: Ninel Matache
-Data: 22.10.2024
+Produs: Laptop ASUS Vivobook Go 15 E1504FA-BQ050, 15.6", Full HD, AMD Ryzen 5 7520U, 8GB RAM, 512GB SSD, AMD Radeon Graphics, Free DOS, Culoare Negru
+URL: https://www.flanco.ro/laptop-asus-vivobook-go-15-e1504fa-bq050-15-6-full-hd-amd-ryzen-5-7520u-8gb-ram-512gb-ssd-amd-radeon-graphics-free-dos-culoare-negru.html
+Autor: Ghita Maria
+Data: 27.07.2024
 Rating: 5
-Text: Sunt profesor de liceu si aveam nevoie de un laptop potent, dar in acelasi timp cu un ecran mare, pe care sa-l pot lua dupa mine. Sunt foarte multumit de performantele acestui produs si il recomand
+Text: Minunat, imi place foarte mult
+Acest laptop este ceea ce am nevoie atat pentru munca cat si pentru acasa.
+Il folosesc la office si la vizionat YouTube si filme online.
 
 --- REVIEW #13 ---
-Produs: Laptop Asus ExpertBook B3 B3604CMA-Q90347, 16", WUXGA, Intel Core Ultra 5 125H, 16GB DDR5, 512GB SSD, Intel Graphics, No OS, Star Black
-URL: https://www.flanco.ro/laptop-asus-expertbook-b3-b3604cma-q90347-16-wuxga-intel-core-ultra-5-125h-16gb-ddr5-512gb-ssd-intel-graphics-no-os-star-black.html
-Autor: Marius C.
-Data: 02.10.2024
+Produs: Laptop ASUS Vivobook Go 15 E1504FA-BQ050, 15.6", Full HD, AMD Ryzen 5 7520U, 8GB RAM, 512GB SSD, AMD Radeon Graphics, Free DOS, Culoare Negru
+URL: https://www.flanco.ro/laptop-asus-vivobook-go-15-e1504fa-bq050-15-6-full-hd-amd-ryzen-5-7520u-8gb-ram-512gb-ssd-amd-radeon-graphics-free-dos-culoare-negru.html
+Autor: Cristina Gheorghe
+Data: 24.01.2024
 Rating: 5
-Text: Imi place laptopul si desi este generatie mai veche de procesor se descurca foarte bine.
-L-am luat pentru munca, dar ma mai si joc din cand in cand pe el, mai ales CS2 si se comporta bine.
+Text: Este super laptopul iar pretul este unul foarte bun
+Sunt foarte multumita de aceasta oferta
 
 --- REVIEW #14 ---
-Produs: Laptop Asus ExpertBook B3 B3604CMA-Q90347, 16", WUXGA, Intel Core Ultra 5 125H, 16GB DDR5, 512GB SSD, Intel Graphics, No OS, Star Black
-URL: https://www.flanco.ro/laptop-asus-expertbook-b3-b3604cma-q90347-16-wuxga-intel-core-ultra-5-125h-16gb-ddr5-512gb-ssd-intel-graphics-no-os-star-black.html
-Autor: Grasu Bogdan
-Data: 19.08.2024
+Produs: Laptop gaming Asus TUF A15 15.6", FHD 144 Hz, AMD Rhyzen 7 7435HS, 16 GB DDR5, 1 TB SSD, NVIDIA Geforce RTX 4060, No OS
+URL: https://www.flanco.ro/laptop-gaming-asus-tuf-a15-15-6-fhd-144-hz-amd-rhyzen-7-7435hs-16-gb-ddr5-1-tb-ssd-nvidia-geforce-rtx-4060-no-os.html
+Autor: Marius Putineanu
+Data: 04.03.2025
 Rating: 5
-Text: L-am luat pentru programare, tastatura este foarte comoda. Procesorul este foarte puternic, putand rula si jocuri cum ar fi Baldurs Gate 3. Merge bine Minecraft si Heartstone.
+Text: Un laptop excelent pentru gaming si alte programele ce solicita destul de mult alte decive-uri, iar raportul calitate-pret exceptional. Recomand
 
 --- REVIEW #15 ---
-Produs: Laptop Business ASUS ExpertBook B1, B1502CVA-BQ1447, 15.6 inch, FHD, Intel® Core™ i7-1355U, Intel® UHD Graphics, DDR4 16 GB RAM, 512 GB SSD, NO OS, Star Black
-URL: https://www.flanco.ro/laptop-business-asus-expertbook-b1-b1502cva-bq1447-15-6-inch-fhd-intelr-coretm-i7-1355u-intelr-uhd-graphics-ddr4-16-gb-ram-512-gb-ssd-no-os-star-black.html
-Autor: Pavel Andrei
-Data: 15.04.2025
+Produs: Laptop gaming Asus TUF A15 15.6", FHD 144 Hz, AMD Rhyzen 7 7435HS, 16 GB DDR5, 1 TB SSD, NVIDIA Geforce RTX 4060, No OS
+URL: https://www.flanco.ro/laptop-gaming-asus-tuf-a15-15-6-fhd-144-hz-amd-rhyzen-7-7435hs-16-gb-ddr5-1-tb-ssd-nvidia-geforce-rtx-4060-no-os.html
+Autor: PAUL
+Data: 04.03.2025
 Rating: 5
-Text: L-am luat pentru activitati de birou si conferinte online si chiar isi face treaba fara batai de cap. Se misca repede, deschide tot instant si nu se blocheaza. E usor, subtire si il pot cara fara probleme toata ziua. Tastatura e comoda si ecranul e clar, perfect pentru lucru indelungat. Nu are nimic in plus sau in minus, fix ce trebuie pentru cineva care vrea eficienta. Carcasa are un look elegant si sobru. Ideal pentru un mediu de lucru serios.
+Text: Raport calitate pret foarte bun , mi a depasit asteptarile , merge orice joc incerci pe el fara probleme la o calitate foarte buna. Recomand
 
 --- REVIEW #16 ---
-Produs: Laptop Asus TUF Gaming A15 (2023) FA507NV-LP019, 15.6", Full HD, AMD Ryzen 7 7735HS, 8GB RAM, 512GB SSD, nVidia GeForce RTX 4060, No OS, Gri
-URL: https://www.flanco.ro/laptop-asus-tuf-gaming-a15-2023-fa507nv-lp019-15-6-full-hd-amd-ryzen-7-7735hs-8gb-ram-512gb-ssd-nvidia-geforce-rtx-4060-no-os-gri.html
-Autor: Popa Vlad
-Data: 30.03.2025
+Produs: Laptop gaming Asus TUF A15 15.6", FHD 144 Hz, AMD Rhyzen 7 7435HS, 16 GB DDR5, 1 TB SSD, NVIDIA Geforce RTX 4060, No OS
+URL: https://www.flanco.ro/laptop-gaming-asus-tuf-a15-15-6-fhd-144-hz-amd-rhyzen-7-7435hs-16-gb-ddr5-1-tb-ssd-nvidia-geforce-rtx-4060-no-os.html
+Autor: Horia
+Data: 04.01.2025
 Rating: 5
-Text: Cel mai bun laptop de gaming. Este ce trebuie. Un laptop solid si cu racire peste medie clar. Touch padul mi se pare putin cam rigid, dar oricum folosesc mouse in marea majoritate a timpului.
+Text: Un laptop ideal de gaming in raport cu pretul sau, perfomante excelente in FullHD cu fps-uri mari de pana la 200 in CS 2 , ETS2, Dota 2, are o racire buna , da scoate Bateria tine bine chiar si pe modul normal. Ecranul este luminos de calitate buna , se misca impecabil , tastatura este asezata perfect , tastele wasd transparente, sunete de click-uri foarte placute nici prea tari si nici prea incet cu reglaj intensitate lumina si culori. Difuzoarele si ele de calitate.
 
 --- REVIEW #17 ---
-Produs: Laptop Asus TUF Gaming A15 (2023) FA507NV-LP019, 15.6", Full HD, AMD Ryzen 7 7735HS, 8GB RAM, 512GB SSD, nVidia GeForce RTX 4060, No OS, Gri
-URL: https://www.flanco.ro/laptop-asus-tuf-gaming-a15-2023-fa507nv-lp019-15-6-full-hd-amd-ryzen-7-7735hs-8gb-ram-512gb-ssd-nvidia-geforce-rtx-4060-no-os-gri.html
-Autor: Mirel
-Data: 12.07.2024
-Rating: 5
-Text: Este un laptop foarte bun
-Chiar se simte faptul ca are un procesor foarte puternic. Cred ca o sa-i fac un upgrade la stocare, am multe fisiere si poze si mi-ar fi mai ok 1 Tb SSD.
-
---- REVIEW #18 ---
-Produs: Laptop Asus TUF Gaming A15 (2023) FA507NV-LP019, 15.6", Full HD, AMD Ryzen 7 7735HS, 8GB RAM, 512GB SSD, nVidia GeForce RTX 4060, No OS, Gri
-URL: https://www.flanco.ro/laptop-asus-tuf-gaming-a15-2023-fa507nv-lp019-15-6-full-hd-amd-ryzen-7-7735hs-8gb-ram-512gb-ssd-nvidia-geforce-rtx-4060-no-os-gri.html
-Autor: Vladu Marian
-Data: 04.03.2024
-Rating: 5
-Text: Este foarte bun
-Il folosesc la facultate pe proiecte 3d autocad.
-
---- REVIEW #19 ---
-Produs: Telefon mobil Redmi Note 14 Pro 5G, 256GB, 8GB RAM, Dual SIM, Midnight Black
-URL: https://www.flanco.ro/telefon-mobil-redmi-note-14-pro-5g-256gb-8gb-ram-dual-sim-midnight-black.html
-Autor: Radu Serban
-Data: 06.04.2025
-Rating: 5
-Text: Parere PRO
--ecan mare, curbat, luminos (se vede bine chair si in lumina soarelui), refresh de 120HZ
--baterie mare (la utilizare normala tine aprox 2 zile)
--camerea de 200Mp, poze foarte bune.
-
-Pareer contra
-Au scos incarcatorul din pachet
-
---- REVIEW #20 ---
-Produs: Telefon mobil Redmi Note 14 Pro 5G, 256GB, 8GB RAM, Dual SIM, Midnight Black
-URL: https://www.flanco.ro/telefon-mobil-redmi-note-14-pro-5g-256gb-8gb-ram-dual-sim-midnight-black.html
-Autor: Andrei Pop
-Data: 30.01.2025
-Rating: 5
-Text: Este un telefon care sta bine in mana , te surprinde camera , se misca rapid in aplicatii meniu etc .
-Recomand pt pretentiosi .
-
---- REVIEW #21 ---
-Produs: Laptop Allview Allbook I, Intel® Core™ i3-1005G1, 8GB DDR4, SSD 256GB, Intel® UHD Graphics, Free DOS
-URL: https://www.flanco.ro/laptop-allview-allbook-i-intel-core-i3-1005g1-8gb-ddr4-ssd-256gb-intel-uhd-graphics-free-dos.html
-Autor: Ionut
-Data: 11.09.2024
-Rating: 0
-Text: Memorie ram care e maximum
-
---- REVIEW #22 ---
-Produs: Laptop Allview Allbook I, Intel® Core™ i3-1005G1, 8GB DDR4, SSD 256GB, Intel® UHD Graphics, Free DOS
-URL: https://www.flanco.ro/laptop-allview-allbook-i-intel-core-i3-1005g1-8gb-ddr4-ssd-256gb-intel-uhd-graphics-free-dos.html
-Autor: Andrei
-Data: 18.11.2023
-Rating: 1
-Text: Bateria tine foarte putin, maxim 2 ore, dintre care o ora am jucat un joc si 1 ora am ascultat muzica pe Youtube.
-
---- REVIEW #23 ---
 Produs: Telefon Mobil Apple iPhone 15 Pro Max 5G, 256GB, Black Titanium
 URL: https://www.flanco.ro/telefon-mobil-apple-iphone-15-pro-max-5g-256gb-black-titanium.html
 Autor: Maria Oprescu
@@ -197,7 +143,7 @@ Data: 11.09.2024
 Rating: 5
 Text: Produsul este ceea ce mi-am dorit iar livrarea ireprosabila. Multumesc
 
---- REVIEW #24 ---
+--- REVIEW #18 ---
 Produs: Telefon Mobil Apple iPhone 15 Pro Max 5G, 256GB, Black Titanium
 URL: https://www.flanco.ro/telefon-mobil-apple-iphone-15-pro-max-5g-256gb-black-titanium.html
 Autor: Emanuel-Cosmin Agache
@@ -207,7 +153,7 @@ Text: Telefonul ca telefonul, insa ce trebuie neaparat mentionat este promptitud
 
 Spre deosebire de competitorii(a caror nume rimeaza cu Fnag) care mi-au tinut banii blocati in precomanda timp de 1 luna, Flanco a livrat in nici 2 zile din momentul plasarii comenzii. Multumesc
 
---- REVIEW #25 ---
+--- REVIEW #19 ---
 Produs: Telefon Mobil Apple iPhone 15 Pro Max 5G, 256GB, Black Titanium
 URL: https://www.flanco.ro/telefon-mobil-apple-iphone-15-pro-max-5g-256gb-black-titanium.html
 Autor: Andrei Toma
@@ -215,7 +161,7 @@ Data: 12.12.2023
 Rating: 5
 Text: Comanda plasata in data de 06.11, primita in 11.12, telefonul este ok, am facut upgrade-ul de la un samsung s10, diferentele sunt sesizabile.
 
---- REVIEW #26 ---
+--- REVIEW #20 ---
 Produs: Telefon Mobil Apple iPhone 15 Pro Max 5G, 256GB, Black Titanium
 URL: https://www.flanco.ro/telefon-mobil-apple-iphone-15-pro-max-5g-256gb-black-titanium.html
 Autor: Lucian
@@ -223,170 +169,94 @@ Data: 11.12.2023
 Rating: 5
 Text: Despre telefon e clar ce stie sa faca. Felicitari Flanco pentru cat de rapida a fost livrarea. Comanda data pe 28.11 livrata pe 11.12, in conditiile in care la alti distribuitori exista comenzi din septembrie neonorate .
 
---- REVIEW #27 ---
-Produs: Telefon Mobil Apple iPhone 15 Pro Max 5G, 256GB, Black Titanium
-URL: https://www.flanco.ro/telefon-mobil-apple-iphone-15-pro-max-5g-256gb-black-titanium.html
-Autor: 
-Data: 28.10.2023
-Rating: 
-Text: 
+--- REVIEW #21 ---
+Produs: Telefon mobil Xiaomi 14T, 512 GB, 12 GB RAM, Dual SIM, Titan Black
+URL: https://www.flanco.ro/telefon-mobil-xiaomi-14t-512-gb-12-gb-ram-dual-sim-titan-black.html
+Autor: Viorica Maria Petros
+Data: 14.03.2025
+Rating: 1
+Text: Am achizitionat telefonul dar este cu probleme. L-am trimis la ESD-ROM, dar a venit inapoi asa cum l-am trimis. Cablul nu mai sta bine in interiorul mufei de incarcare.
 
---- REVIEW #28 ---
-Produs: Telefon Mobil Apple iPhone 15 Pro Max 5G, 256GB, Black Titanium
-URL: https://www.flanco.ro/telefon-mobil-apple-iphone-15-pro-max-5g-256gb-black-titanium.html
-Autor: 
-Data: 28.10.2023
-Rating: 
-Text: 
-
---- REVIEW #29 ---
-Produs: Telefon Mobil Apple iPhone 15 Pro Max 5G, 256GB, Black Titanium
-URL: https://www.flanco.ro/telefon-mobil-apple-iphone-15-pro-max-5g-256gb-black-titanium.html
-Autor: 
-Data: 27.10.2023
-Rating: 0
-Text: 
-
---- REVIEW #30 ---
-Produs: Telefon Mobil Apple iPhone 15 Pro Max 5G, 256GB, Black Titanium
-URL: https://www.flanco.ro/telefon-mobil-apple-iphone-15-pro-max-5g-256gb-black-titanium.html
-Autor: 
-Data: 22.10.2023
-Rating: 
-Text: 
-
---- REVIEW #31 ---
-Produs: Telefon mobil Xiaomi Redmi Note 12, 128GB, 4GB RAM, Dual SIM, Onyx Gray
-URL: https://www.flanco.ro/telefon-mobil-xiaomi-redmi-note-12-128gb-4gb-ram-dual-sim-onyx-gray.html
-Autor: Szekely Zoltan
-Data: 30.03.2023
-Rating: 4
-Text: Felicitari Flanco Dupa lansarea in Europa aveti deja stoc
-Display frumos, foarte clar. Aplicatii din belsug, multe updateuri. Placut la aspect, nu prea mare. Totusi, ma asteptam la ceva mai fluid, rapid, cea ce priveste pornirea telefonului, dureaza cam un minut /-. La multisaking se observa ca este entry-mid level, mai dureaza schimbarile intre aplicatii. Poate ar fi fost o alegere mai desteapta varianta pro, cu un procesor mai performant si 6 GB RAM. Per total, fiind cadou pentru sotie, este un telefon foarte bun la acest pret. Recomand.
-
---- REVIEW #32 ---
-Produs: Laptop ASUS Zenbook 16 OLED UM5606WA-RJ256X, AMD Ryzen AI 9 HX 370, 16" 3K Touch, 32GB, SSD 2TB, AMD Radeon 690M Graphics, Windows 11 Pro, Scandinavian White
-URL: https://www.flanco.ro/laptop-asus-zenbook-16-oled-um5606wa-rj256x-amd-ryzen-ai-9-hx-370-16-3k-touch-32gb-ssd-2tb-amd-radeon-690m-graphics-windows-11-pro-scandinavian-white.html
-Autor: Neacsa
-Data: 22.12.2024
+--- REVIEW #22 ---
+Produs: Telefon mobil Xiaomi 14T, 512 GB, 12 GB RAM, Dual SIM, Titan Black
+URL: https://www.flanco.ro/telefon-mobil-xiaomi-14t-512-gb-12-gb-ram-dual-sim-titan-black.html
+Autor: Ionut
+Data: 29.11.2024
 Rating: 5
-Text: Mi-l doream de ceva timp.
-Este ce trebuie pentru editare foto si portabilitate. Combinatia perfecta intre constructie premium si portabilitate.
-Are un ecran cum putine laptopuri de pe piata au la ora actuala.
+Text: Initial am mizat pe modelul 14T Pro insa, am ajuns la concluzia ca 14T e mai mult decat suficient pentru activitatile deservite de mine mail, cateva poze pe zi si apeluri de lunga durata.
+Exista si un mic dezavantaj, incarcatorul nu mai este prezent in cutie dar se poate folosi cel vechi, de preferat minim 20-30W.
 
---- REVIEW #33 ---
-Produs: Laptop ASUS Zenbook 16 OLED UM5606WA-RJ256X, AMD Ryzen AI 9 HX 370, 16" 3K Touch, 32GB, SSD 2TB, AMD Radeon 690M Graphics, Windows 11 Pro, Scandinavian White
-URL: https://www.flanco.ro/laptop-asus-zenbook-16-oled-um5606wa-rj256x-amd-ryzen-ai-9-hx-370-16-3k-touch-32gb-ssd-2tb-amd-radeon-690m-graphics-windows-11-pro-scandinavian-white.html
-Autor: Grigoroiu Nicusor
-Data: 05.12.2024
-Rating: 5
-Text: Este un laptop foarte bun. Are procesor de la AMD foarte rapid, ecran super, baterie buna, stocare mare si este foarte finut si portabil. Este tot ce-mi trebuie.
-
---- REVIEW #34 ---
-Produs: Laptop ASUS Zenbook 16 OLED UM5606WA-RJ256X, AMD Ryzen AI 9 HX 370, 16" 3K Touch, 32GB, SSD 2TB, AMD Radeon 690M Graphics, Windows 11 Pro, Scandinavian White
-URL: https://www.flanco.ro/laptop-asus-zenbook-16-oled-um5606wa-rj256x-amd-ryzen-ai-9-hx-370-16-3k-touch-32gb-ssd-2tb-amd-radeon-690m-graphics-windows-11-pro-scandinavian-white.html
-Autor: Silvia Marinescu
-Data: 12.09.2024
-Rating: 5
-Text: Este minunat
-Construit foarte bine, este incredibil de frumos, ecranul de 5 stele cu un procesor fff rapid. Aveam nevoie de un laptop elegant cu stocare foarte mare si consider ca am facut alegerea justa.
-
---- REVIEW #35 ---
-Produs: Telefon mobil Apple iPhone 15, 128 GB, 5G, Pink
-URL: https://www.flanco.ro/telefon-mobil-apple-iphone-15-128-gb-5g-pink.html
-Autor: Leru Andrei Ionut
-Data: 08.02.2025
-Rating: 5
-Text: O experienta extraordianra, la Flanco-ul din atrium mall Arad, Ofitera de credite a fost extrem de profesionista, amabila si foarte pregatita. Ne-a explicat totul clar si ne-a oferit cele mai bune solutii, cu multa rabdare si un zambet cald.
-
-De asemenea colegul ei de tura a fost foarte promt si atent, asigurandu-se ca totul decurge perfect.
-
---- REVIEW #36 ---
-Produs: Telefon mobil Motorola Edge 50 Fusion 5G, 256GB, 8GB RAM, Dual SIM, Forest Blue
-URL: https://www.flanco.ro/telefon-mobil-motorola-edge-50-fusion-5g-256gb-8gb-ram-dual-sim-forest-blue.html
-Autor: Nicu
-Data: 26.03.2025
-Rating: 5
-Text: Multumit de telefon.
-Display foarte bun, aplicatiile ruleaza bine, nimic de reprosat.
-
---- REVIEW #37 ---
-Produs: Telefon mobil Motorola Edge 50 Fusion 5G, 256GB, 8GB RAM, Dual SIM, Forest Blue
-URL: https://www.flanco.ro/telefon-mobil-motorola-edge-50-fusion-5g-256gb-8gb-ram-dual-sim-forest-blue.html
-Autor: Larisa
-Data: 15.02.2025
-Rating: 0
-Text: Buna ziua ,acest telefon are si ESIM
-
---- REVIEW #38 ---
-Produs: Telefon mobil Motorola Edge 50 Fusion 5G, 256GB, 8GB RAM, Dual SIM, Forest Blue
-URL: https://www.flanco.ro/telefon-mobil-motorola-edge-50-fusion-5g-256gb-8gb-ram-dual-sim-forest-blue.html
-Autor: Lovingyou
-Data: 05.01.2025
-Rating: 5
-Text: Un telefon destul de dragut din toate punctele de vedere , face poze superbe , reale , naturale , sunetul este putin plat fara bass, notele inalte ies in evidenta. Sunt foarte multumit de el , nu are lag , are ultimul sistem de operare android 15
-
---- REVIEW #39 ---
-Produs: Telefon mobil Motorola Edge 50 Fusion 5G, 256GB, 8GB RAM, Dual SIM, Forest Blue
-URL: https://www.flanco.ro/telefon-mobil-motorola-edge-50-fusion-5g-256gb-8gb-ram-dual-sim-forest-blue.html
-Autor: Andrei
-Data: 19.11.2024
-Rating: 5
-Text: eu l-am luat la 1599 lei, vin dupa samsung note20, acum de BF e pomana la 1200 lei, vreau sa spun ca telefonul e super ok, bateria tine 2 zile, incarcare foarte rapida
-
---- REVIEW #40 ---
-Produs: Telefon mobil Motorola Edge 50 Fusion 5G, 256GB, 8GB RAM, Dual SIM, Forest Blue
-URL: https://www.flanco.ro/telefon-mobil-motorola-edge-50-fusion-5g-256gb-8gb-ram-dual-sim-forest-blue.html
-Autor: 
-Data: 07.11.2024
-Rating: 
-Text: 
-
---- REVIEW #41 ---
-Produs: Telefon mobil Motorola Edge 50 Fusion 5G, 256GB, 8GB RAM, Dual SIM, Forest Blue
-URL: https://www.flanco.ro/telefon-mobil-motorola-edge-50-fusion-5g-256gb-8gb-ram-dual-sim-forest-blue.html
-Autor: 
-Data: 02.11.2024
-Rating: 
-Text: 
-
---- REVIEW #42 ---
-Produs: Telefon mobil Motorola Moto g54 5G, 8GB RAM, 256GB, Midnight Blue
-URL: https://www.flanco.ro/telefon-mobil-motorola-moto-g54-5g-8gb-ram-256gb-midnight-blue.html
-Autor: Dancul Adelina
-Data: 10.11.2024
-Rating: 3
-Text: Am cumparat telefonul crezand in mod eronat ca are bateria de 6000 mAH, doar ca aceasta varianta Midnight Blue are bateria mai mica decat varianta Power Edition, are doar 5000 mAH si tine foarte putin, mai putin chiar si decat telefoanele cu 4000 mAH. Exista si varianta de 8Gb power edition cu acelasi pret si are 6000 mah. Dupa prima incarcare de 100, am configurat telefonul, si a ajuns deja la sub 60. Nu recomand acest telefon.
-
---- REVIEW #43 ---
-Produs: Telefon mobil Motorola Moto g54 5G, 8GB RAM, 256GB, Midnight Blue
-URL: https://www.flanco.ro/telefon-mobil-motorola-moto-g54-5g-8gb-ram-256gb-midnight-blue.html
-Autor: Alin
-Data: 07.12.2023
-Rating: 5
-Text: Telefonul are 12 giga de RAM nu 8 g de ram
-
---- REVIEW #44 ---
-Produs: Telefon mobil Motorola Moto g54 5G, 8GB RAM, 256GB, Midnight Blue
-URL: https://www.flanco.ro/telefon-mobil-motorola-moto-g54-5g-8gb-ram-256gb-midnight-blue.html
-Autor: Cosmin Antohe
-Data: 02.12.2023
-Rating: 5
-Text: Telefonul merge excelent Viteza de rulare e foarte rapida si raspunde foarte bine la fiecare folosire. La partea cu aparatul foto, face poze cu detalii foarte clare Chiar recomand foarte mult acest telefon Moto
-
---- REVIEW #45 ---
-Produs: Telefon mobil Redmi Note 13 5G, 128GB, 6GB RAM, Dual SIM, Midnight Black
-URL: https://www.flanco.ro/telefon-mobil-redmi-note-13-5g-128gb-6gb-ram-dual-sim-midnight-black.html
-Autor: Marusia Dimulescu
+--- REVIEW #23 ---
+Produs: Telefon mobil Redmi Note 13 Pro, 256GB, 8GB RAM, Dual SIM, Lavender Purple
+URL: https://www.flanco.ro/telefon-mobil-redmi-note-13-pro-256gb-8gb-ram-dual-sim-lavender-purple.html
+Autor: Beniamin Vale
 Data: 02.12.2024
 Rating: 5
-Text: I-am achizitionat in primavara mamei mele un smartphone Redmi Note 13 5G de care este incantata ,bateria tine o zi intreaga si este destul de generoasa 5000 mAh .Are o culoare faina ,face poze clare insa este foarte usor si finut ,mie mi se pare prea usor in rest il recomand
+Text: Foarte bun si ca pret si telefonul,sunt multumit de el.
 
---- REVIEW #46 ---
-Produs: Telefon mobil Redmi Note 13 5G, 128GB, 6GB RAM, Dual SIM, Midnight Black
-URL: https://www.flanco.ro/telefon-mobil-redmi-note-13-5g-128gb-6gb-ram-dual-sim-midnight-black.html
-Autor: Gabriel
-Data: 03.11.2024
+--- REVIEW #24 ---
+Produs: Laptop ASUS Vivobook 14 F1404VA-EB592W, Intel Core i5-1335U, 16inch, RAM 16GB, SSD 512GB, Intel Iris Xe Graphics, Windows 11 Pro, Berry Pink
+URL: https://www.flanco.ro/laptop-asus-vivobook-14-f1404va-eb592w-intel-core-i5-1335u-16inch-ram-16gb-ssd-512gb-intel-iris-xe-graphics-windows-11-pro-berry-pink.html
+Autor: Iancu Daniel
+Data: 26.05.2025
+Rating: 5
+Text: Ca programator, am nevoie de un laptop care sa gestioneze fara efort mai multe programe deschise simultan. Acesta se descurca excelent, iar autonomia buna ma ajuta sa lucrez fara grija perioadelor lungi. Tastatura este confortabila, iar sistemul de operare optimizat aduce o experienta fluida si eficienta.
+
+--- REVIEW #25 ---
+Produs: Laptop ASUS Vivobook 14 F1404VA-EB592W, Intel Core i5-1335U, 16inch, RAM 16GB, SSD 512GB, Intel Iris Xe Graphics, Windows 11 Pro, Berry Pink
+URL: https://www.flanco.ro/laptop-asus-vivobook-14-f1404va-eb592w-intel-core-i5-1335u-16inch-ram-16gb-ssd-512gb-intel-iris-xe-graphics-windows-11-pro-berry-pink.html
+Autor: Vitican Marilena
+Data: 18.05.2025
+Rating: 5
+Text: Foarte multumita de produs, recomand
+
+--- REVIEW #26 ---
+Produs: Telefon mobil Allview V10 Viper, 64GB, 4GB RAM, Dual SIM, Blue Mirror
+URL: https://www.flanco.ro/telefon-mobil-allview-v10-viper-64gb-4gb-ram-dual-sim-blue-mirror.html
+Autor: Asa si asa
+Data: 19.12.2023
+Rating: 2
+Text: Putin cam slabut, mult lag , iasa din aplicatii , camere slabe , bun pentru cateva aplicatii de socializare si convorbiri.
+
+--- REVIEW #27 ---
+Produs: Telefon mobil Xiaomi Redmi 13C, 128GB, 4GB RAM, Dual SIM, Midnight Black
+URL: https://www.flanco.ro/telefon-mobil-xiaomi-redmi-13c-128gb-4gb-ram-dual-sim-midnight-black.html
+Autor: Marton
+Data: 21.08.2024
 Rating: 4
-Text: Foarte bun.Vine cu folie si husa in pachet. Upgrade-ul la HyperOS nu este chiar cel mai potrivit. MIUI 14 e mai bun
+Text: Am o intrebare are NFC telefonul
+
+--- REVIEW #28 ---
+Produs: Telefon mobil Xiaomi Redmi 13C, 128GB, 4GB RAM, Dual SIM, Midnight Black
+URL: https://www.flanco.ro/telefon-mobil-xiaomi-redmi-13c-128gb-4gb-ram-dual-sim-midnight-black.html
+Autor: Istrate Gabriel
+Data: 27.01.2024
+Rating: 5
+Text: Foarte bun telefonul,rezervare si livrare prompta din magazin, felicitari Flanco.
+
+--- REVIEW #29 ---
+Produs: Telefon mobil Samsung Galaxy S24, 256GB, 8GB, Dual SIM, Marble Gray
+URL: https://www.flanco.ro/telefon-mobil-samsung-galaxy-s24-256gb-8gb-dual-sim-marble-gray.html
+Autor: Luca sorana
+Data: 18.05.2024
+Rating: 1
+Text: Am achizitionat acest telefon in urma cu aprox 10 zile insa sunt dezamagita. Se incalzeste chiar cand navighez pe facebook si atat.. se incalzeste si pierde f multa baterie atunci cand faci fotografii.. nu am mai patit cu nici un telefon sa se incalzeasca cand faci poze.. fara filtre, fara aplicatii instalate.. pur si simplu fotografiam niste catei. Sincer, nu m-am asteptat...
+
+--- REVIEW #30 ---
+Produs: Laptop ASUS Chromebook Plus CX34 CX3402CBA-PQ0457, Intel Core i3-1215U, 14inch, RAM 8GB, UFS 128GB, Intel UHD Graphics, Chrome OS, Rocky Grey
+URL: https://www.flanco.ro/laptop-asus-chromebook-plus-cx34-cx3402cba-pq0457-intel-core-i3-1215u-14inch-ram-8gb-ufs-128gb-intel-uhd-graphics-chrome-os-rocky-grey.html
+Autor: Margareta
+Data: 26.03.2025
+Rating: 5
+Text: Sunt multumita si pretul este foarte bun.
+La scoala ii este de ajuns fetitei pentru gimnaziu.
+
+--- REVIEW #31 ---
+Produs: Laptop ASUS Chromebook Plus CX34 CX3402CBA-PQ0457, Intel Core i3-1215U, 14inch, RAM 8GB, UFS 128GB, Intel UHD Graphics, Chrome OS, Rocky Grey
+URL: https://www.flanco.ro/laptop-asus-chromebook-plus-cx34-cx3402cba-pq0457-intel-core-i3-1215u-14inch-ram-8gb-ufs-128gb-intel-uhd-graphics-chrome-os-rocky-grey.html
+Autor: Maria Gabi
+Data: 22.02.2025
+Rating: 5
+Text: Este foarte folositor la scoala.
+Il recomand pentru scoala si jocuri educative, are un pret foarte bun.
 

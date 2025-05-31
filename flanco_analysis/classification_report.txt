@@ -1,6 +1,6 @@
 Raport de clasificare pentru sentimente:
 
-Accuracy: 0.79
+Accuracy: 0.67
 
 Metrics per class:
   Pozitiv:
@@ -10,8 +10,14 @@ Metrics per class:
     Support: 3.0
 
   Neutru:
-    Precision: 0.79
+    Precision: 0.67
     Recall: 1.00
-    F1-score: 0.88
-    Support: 11.0
+    F1-score: 0.80
+    Support: 8.0
+
+  Negativ:
+    Precision: 0.00
+    Recall: 0.00
+    F1-score: 0.00
+    Support: 1.0
 
